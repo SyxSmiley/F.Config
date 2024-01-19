@@ -82,10 +82,15 @@ The placeholder is definded by a $ and it is replaced with 0 or the value after 
 Load the actual configuration of the robot and save into a configuration file. The file will be saved in the download folder.
 
 ## Limitation
-Only connected IOs are saved in into the configuration file 
+Only connected IOs are saved into the configuration file 
 
 # Direct input
+Direct input allows you to set a comment or variable directly without using a configuration file
 
+# Language
+Supportet languages are
+1. Englisch
+2. German
 
 
 
