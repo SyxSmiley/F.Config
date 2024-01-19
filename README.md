@@ -1,5 +1,4 @@
 # F.Config
-Simple configuration tool for Fanuc Robots
 
 
 F.Config is a simple gui based application to set comments and variables at a Fanuc Robot over HTTP requests.
@@ -11,4 +10,10 @@ There are actually 3 modes supportet.
 1. Transfer a configuration by an .ini file
 2. Load a configuration and save it in an .ini file
 3. Direct input for a single value
+
+
+To set up an .ini configuration there are the following keys to define the configuration
+
+RDI / RI - Robot input
+RDO / RO - Robot output
 
