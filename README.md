@@ -6,19 +6,19 @@ F.Config is a simple gui based application to set comments and variables at a Fa
 ![image](https://github.com/SyxSmiley/F.Config/assets/101479924/d39835e1-7644-40f2-a1e4-8205c3ae16c0)
 
 
-## Supportet modes
+# Supportet modes
 
 1. Transfer configuration file
 2. Load configuration and save it in a configuration file
 3. Direct input for a single value
 
 
-## Transfer configuration file
+# Transfer configuration file
 The configuration file has to be an .ini file
 
 A new configuration area start with a configuration key in brackets [key]
 
-### Possible keys
+## Possible keys
 
 Robot input [ RDI | RI ]  
 
@@ -37,6 +37,14 @@ Analog output [ AOUT | AO ]
 Analog input  [ AIN | AI ] 
 
 Flag [ FLG | F ]
+
+Numeric register [ NUMREG | R ]
+
+Position register [ POSREG | PR ]
+
+String register [ STRREG | SR ]
+
+User alarms [ UALARM | UALM ]
 
 Variable [ VAR ]
 
@@ -66,9 +74,19 @@ The placeholder is definded by a $ and it is replaced with 0 or the value after 
 
 [DI]
 
-1-10=Test comment $ | Set the comment of the digital input 1-10 to Test comment 0 to 9
+1-10=Test comment $ 
 
-11-20=Test comment $5 | Set the comment of the digital input 11-20 to Test comment 5 to 15
+11-20=Test comment $5 
+
+# Load configuration file
+Load the actual configuration of the robot and save into a configuration file. The file will be saved in the download folder.
+
+## Limitation
+Only connected IOs are saved in into the configuration file 
+
+# Direct input
+
+
 
 
 
