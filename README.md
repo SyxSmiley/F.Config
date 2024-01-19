@@ -2,7 +2,10 @@
 Simple configuration tool for Fanuc Robots
 
 
-F.Config is a simple gui based application to set comments and variable at a Fanuc Robot over HTTP requests.
+F.Config is a simple gui based application to set comments and variables at a Fanuc Robot over HTTP requests.
 
+![image](https://github.com/SyxSmiley/F.Config/assets/101479924/d39835e1-7644-40f2-a1e4-8205c3ae16c0)
 
-![icon](https://github.com/SyxSmiley/F.Config/assets/101479924/8302684b-00b7-4282-a4ec-79b5d214087c)
+There are actually 3 modes supportet.
+1.
+
