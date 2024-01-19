@@ -40,6 +40,46 @@ Flag [ FLG | F ]
 
 Variable [ VAR ]
 
-The configuration key is followed by all associated configurations starting with the index / variable name assigned by the comment/value
 
-e.g. 1=Test comment
+## Assignment
+The configuration key is followed by all associated configurations starting with the index/variable name assigned by the comment/value e.g. 
+
+[DI]
+
+1=Test comment
+
+[VAR]
+
+$KAREL_ENB=1
+
+## Range
+To assign multiple equal or similar comments it is possible to define a range before the assignment e.g.
+
+[DI]
+
+1-10=Test comment
+
+### Placeholder 
+If the comment has a increasing number it is possible to combine a range assignment with **one** placeholder. 
+
+The placeholder is definded by a $ and it is replaced with 0 or the value after the $. For each comment in the range the placeholder is increased by 1. e.g.
+
+[DI]
+
+1-10=Test comment $ | Set the comment of the digital input 1-10 to Test comment 0 to 9
+
+11-20=Test comment $5 | Set the comment of the digital input 11-20 to Test comment 5 to 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+
