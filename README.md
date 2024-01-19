@@ -1,4 +1,4 @@
-# F.Config
+# F.Config V0.1
 
 
 F.Config is a simple gui based application to set comments and variables at a Fanuc Robot over HTTP requests.
